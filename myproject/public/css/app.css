@@ -10520,3 +10520,7 @@ li > a {
   font-size: 1.6em;
 }
 
+.non-space {
+  padding-top: 0px;
+}
+
