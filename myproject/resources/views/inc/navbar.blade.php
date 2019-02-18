@@ -88,6 +88,7 @@
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
                             </form>
+                            <p class="text-left" style="font-size:0.9em; padding:0.25rem 1.5rem;"><a href="/home">Dashboard</a></p>
                         </div>
                     </li>
                 @endguest
