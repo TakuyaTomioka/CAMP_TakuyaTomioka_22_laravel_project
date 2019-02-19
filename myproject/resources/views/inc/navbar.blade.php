@@ -56,9 +56,11 @@
                     <a class="nav-link" href="/posts">Blog</a>
                 </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right btn">
+
+            {{-- Remove Create Post link
+                <ul class="nav navbar-nav navbar-right btn">
                 <li><a href="/posts/create">Create Post</a></li>
-            </ul>
+            </ul> --}}
 
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
