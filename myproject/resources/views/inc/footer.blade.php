@@ -1,1 +1,1 @@
-<footer>COPYRIGHT by TakuyaTomioka  ALL RIGHTS RESERVED</footer>
+<footer class="footer">COPYRIGHT by TakuyaTomioka  ALL RIGHTS RESERVED</footer>

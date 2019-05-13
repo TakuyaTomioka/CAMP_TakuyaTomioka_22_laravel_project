@@ -23,10 +23,12 @@
     <div id="app">
         <main class="non-space">
             @include('inc.navbar')
+            @include('inc.main-image')
             <div class="container">
                 @include('inc.messages')
                 @yield('content')
             </div>
+            @include('inc.footer')
         </main>
     </div>
     <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
