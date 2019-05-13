@@ -21,9 +21,7 @@
 </head>
 <body>
     <div id="app">
-        
-
-        <main class="py-4 non-space">
+        <main class="non-space">
             @include('inc.navbar')
             <div class="container">
                 @include('inc.messages')
