@@ -1,0 +1,1 @@
+<footer>COPYRIGHT by TakuyaTomioka  ALL RIGHTS RESERVED</footer>
