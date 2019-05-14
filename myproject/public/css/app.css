@@ -10532,16 +10532,55 @@ li > a {
 
 #main-images .image1 {
   margin: 0;
-  width: 50%;
+  padding: 0;
   height: auto;
-  opacity: 0.7;
+  position: relative;
+}
+
+#main-images .image1 a {
+  size: 2.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 2rem;
+  border: solid white 2px;
+  padding: 7px;
+  color: #ffed4a;
+  text-decoration: none;
+  background-color: rgba(223, 219, 219, 0.808);
+}
+
+#main-images .image1 a:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 #main-images .image2 {
   margin: 0;
-  width: 50%;
+  padding: 0;
   height: auto;
-  opacity: 0.7;
+}
+
+#main-images .image2 a {
+  size: 2.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 2rem;
+  border: solid white 2px;
+  padding: 7px;
+  color: #e3342f;
+  text-decoration: none;
+  background-color: rgba(223, 219, 219, 0.808);
+}
+
+#main-images .image2 a:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .footer {

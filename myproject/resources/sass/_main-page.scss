@@ -1,0 +1,50 @@
+#main-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .image1{
+        margin: 0;
+        padding: 0;
+        height: auto;
+        position: relative;
+        a{
+            size: 2.5rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            margin:0;
+            font-size: 2.0rem;
+            border: solid white 2px; 
+            padding: 7px;
+            color: $yellow;
+            text-decoration: none;
+            background-color: rgba(223, 219, 219, 0.808);
+        }
+        a:hover{
+            background: rgba(255, 255, 255, 0.3);
+        }
+    }
+    .image2{
+        margin: 0;
+        padding: 0;
+        height: auto;
+        a{
+            size: 2.5rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            margin:0;
+            font-size: 2.0rem;
+            border: solid white 2px; 
+            padding: 7px;
+            color: $red;
+            text-decoration: none;
+            background-color: rgba(223, 219, 219, 0.808);
+        }
+        a:hover{
+            background: rgba(255, 255, 255, 0.3);
+        }
+    }
+}

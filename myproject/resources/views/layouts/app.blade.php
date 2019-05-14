@@ -10,19 +10,23 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ mix('js/app.js') }}"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div id="app">
-        <main class="non-space">
+    {{-- Vueの読込 --}}
+        {{-- ヘッダー --}}
+        <header>
             @include('inc.navbar')
+        </header>
+        <main class="non-space">
+            {{-- メインビジュアル --}}
             @include('inc.main-image')
             <div class="container">
                 @include('inc.messages')
@@ -30,7 +34,7 @@
             </div>
             @include('inc.footer')
         </main>
-    </div>
+        <div id="app"></div>
     <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
     <script>
         CKEDITOR.replace( 'article-ckeditor' );
